@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `http://localhost:5000/users/${_id}/${friendId}`,
+      `https://nervous-trench-coat-ray.cyclic.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {

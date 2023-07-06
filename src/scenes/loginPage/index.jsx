@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to GymHouse, the Social Media for Great Minds!
+          Welcome to GymHouse, the Social Platform for Great Minds!
         </Typography>
         <Form />
       </Box>
