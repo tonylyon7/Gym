@@ -79,7 +79,7 @@ const Form = () => {
   };
 
   const login = async (values, onSubmitProps) => {
-    const loggedInResponse = await fetch("https://energetic-pink-slippers.cyclic.app//auth/login", {
+    const loggedInResponse = await fetch("https://energetic-pink-slippers.cyclic.app/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(values),
