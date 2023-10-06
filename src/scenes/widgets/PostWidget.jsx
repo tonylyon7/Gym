@@ -35,7 +35,7 @@ const PostWidget = ({
   const primary = palette.primary.main;
 
   const patchLike = async () => {
-    const response = await fetch(`https://nervous-trench-coat-ray.cyclic.app/posts/${postId}/like`, {
+    const response = await fetch(`https://energetic-pink-slippers.cyclic.app/posts/${postId}/like`, {
       method: "PATCH",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -64,7 +64,7 @@ const PostWidget = ({
           height="auto"
           alt="post"
           style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-          src={`https://nervous-trench-coat-ray.cyclic.app/assets/${picturePath}`}
+          src={`https://energetic-pink-slippers.cyclic.app/assets/${picturePath}`}
         />
       )}
       <FlexBetween mt="0.25rem">

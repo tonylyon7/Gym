@@ -22,7 +22,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const main = palette.neutral.main;
 
   const getUser = async () => {
-    const response = await fetch(`https://nervous-trench-coat-ray.cyclic.app/users/${userId}`, {
+    const response = await fetch(`https://energetic-pink-slippers.cyclic.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });

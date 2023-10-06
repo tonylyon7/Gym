@@ -8,7 +8,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://nervous-trench-coat-ray.cyclic.app/assets/${image}`}
+        src={`https://energetic-pink-slippers.cyclic.app/assets/${image}`}
       />
     </Box>
   );
