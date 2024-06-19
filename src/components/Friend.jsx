@@ -23,8 +23,8 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://energetic-pink-slippers.cyclic.app/users/${_id}/${friendId}`,
-      {
+      `https://gymserver2.onrender.com/users/${_id}/${friendId}`,
+      { 
         method: "PATCH",
         headers: {
           Authorization: `Bearer ${token}`,
